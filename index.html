@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sobre mí | portfolio  </title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" type="image.png" href="iconito.png">
+</head>
+<body>
+    <!--seccion de inicio---> 
+    <section id="inicio">
+     <div class="contenido">
+        <header>
+            <div class="contenido-header">
+             <h1>/YF/</h1>
+             <nav id="nav" class="">
+                <ul id="links">
+                    <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MÍ</a></li>
+                    <li><a href="#estudios" onclick="seleccionar(this)">ESTUDIOS</a></li>
+                    <li><a href="#skills" onclick="seleccionar(this)">HABILIDADES</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                </ul>
+             </nav>
+             <!--iconos de menú responsive---> 
+             <div id="icono-nav">
+                <i class="fa-solid fa-bars"></i>
+             </div>
+            <!-- iconos de las redes sociales-->
+            <div class="redes">
+                <a href="https://www.facebook.com/yanella.fernandez.129"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/yanhir._/"><i class="fa-brands fa-instagram"></i></a>
+            </div> 
+            </div>
+        </header>
+        <div class="presentacion">
+            <p class="bienvenida">Bienvenidxs</p>
+            <h2>Soy <span>Yanella Fernandez</span>, Desarrollador web</h2>
+            <p class="descripcion"></p>
+            <a href="#portfolio">Ir a portfolio</a>
+        </div>
+     </div>
+    </section>
+   <!--seccion sobre mi--> 
+   <section id="sobremi">
+  <div class="contenedor-foto">
+    <img src="imagenes_sobremi/sobremi.jpg" alt="">
+  </div>
+  <div class="sobremi">
+    <p class="titulo-seccion">Sobre mí</p>
+    <h2>Hola, soy <span>Yanella Fernandez</span></h2>
+    <h3>Desarrollador web</h3>
+    <p>Nací el 18/09/2001 (20 años) en Uruguay. En 2019 comencé a cursar la Licenciatura en Tecnologías de la programación 
+    y en marzo del 2022 comencé a cursar Jóvenes a programar. Actualmente me encuentro ampliando conocimientos en programación.
+    </p>
+    <p>Me considero una persona aplicada que está acostumbrada al trabajo bajo presión que está en búsqueda de oportunidades nuevas.</p>
+    <a href="#">Descargar CV</a> 
+  </div>
+   </section>
+  <!-- seccion estudios-->
+  <section id="estudios">
+   <h3 class="titulo-seccion">MIS ESTUDIOS</h3>
+   <div class="fila">
+    <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Curso online Desarrollo Web - 2021</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <p></p>
+    </div>
+    <div class="servicio">
+        <span class="icono"><i class="fa-brands fa-js"></i></span>
+        <h4>Curso online Javascript - 2021</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <p></p>
+    </div>
+    <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-bullhorn"></i></span>
+        <h4>Curso online Content Marketing para Redes Sociales - 2021</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <p></p>
+    </div>
+   </div>
+  </section>  
+  <!--seccion habilidades-->
+  <div class="contenedor-skills" id="skills">
+    <h3>HABILIDADES</h3>
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"></span>Html & Css</p>
+        <span class="porcentaje">100%</span>
+      </div>
+      <div class="barra">
+        <div id="html" class="barra-progreso1"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"></span>JavaScript</p>
+        <span class="porcentaje">50%</span>
+      </div>
+      <div class="barra"> 
+        <div id="js" class="barra-progreso2"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"></span>Python</p>
+        <span class="porcentaje">50%</span>
+      </div>
+      <div class="barra">
+        <div id="Python" class="barra-progreso3"></div>
+      </div>
+
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"></span>Photoshop</p>
+        <span class="porcentaje">80%</span>
+      </div>
+      <div class="barra">
+        <div id="Ps" class="barra-progreso4"></div>
+      </div>
+    </div>
+    
+    </div> 
+  </div>
+  <!--seccion portfolio-->
+  <section id="portfolio">
+    <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+    <div class="fila">
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="imagenes_seccionportfolio/css.png" alt="">
+        <div class="info"> 
+          <h4>*Descripcion del proyecto*</h4>
+          <p>Diseño web</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="imagenes_seccionportfolio/dom.png" alt="">
+        <div class="info"> 
+          <h4>*Descripcion del proyecto*</h4>
+          <p>JSON</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!--seccion contacto-->
+ <section id="contacto">
+  <h3 class="titulo-seccion">Contactame ahora</h3>
+  <div class="contenedor-form">
+    <form action="">
+      <div class="fila mitad">
+        <input type="text"  placeholder="Nombre completo" class="input-mitad" >
+        <input type="text"  placeholder="Direccion de Email" class="input-mitad" >
+      </div>
+      <div class="fila">
+        <input type="text"  placeholder="Tema..." class="input-full" >
+      </div>
+      <div class="fila">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+      </div>
+      <input type="submit" value="Enviar mensaje" class="btn-enviar">
+    </form>
+  </div>
+ </section> 
+ <!--seccion footer-->
+ <footer>
+  <h4>Yanella Fernandez</h4>
+  <p>Sígueme en mis redes sociales para comunicarte conmigo.</p>
+  <div class="redes">
+    <a href="https://www.facebook.com/yanella.fernandez.129"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/yanhir._/"><i class="fa-brands fa-instagram"></i></a>
+</div> 
+ </footer>
+ <script src="script.js"></script>
+</body>
+</html>
